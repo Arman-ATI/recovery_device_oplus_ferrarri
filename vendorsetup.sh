@@ -106,9 +106,9 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
 	# Realme specific
 	export FOX_BUILD_TYPE="STABLE"
-	export FOX_VERSION=R12.1_A14
-	export OF_MAINTAINER="OMKAR-PARTE"
-	export FOX_VARIANT=RUI-AOSP
+	export FOX_VERSION=R12.1
+	export OF_MAINTAINER="Arman-ATI/\OMKAR-PARTE"
+	export FOX_VARIANT=AOSP-eng
 
 	# let's see what are our build VARs
 	if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
